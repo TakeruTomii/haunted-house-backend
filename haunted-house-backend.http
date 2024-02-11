@@ -1,0 +1,6 @@
+@haunted_house_backend_HostAddress = http://localhost:5131
+
+GET {{haunted_house_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
