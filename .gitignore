@@ -1,0 +1,10 @@
+﻿################################################################################
+# この .gitignore ファイルは Microsoft(R) Visual Studio によって自動的に作成されました。
+################################################################################
+
+/obj/Debug/net8.0
+/obj
+/.vs/haunted-house-backend/DesignTimeBuild
+/.vs/haunted-house-backend/FileContentIndex
+/.vs/haunted-house-backend/v17
+/.vs/ProjectEvaluation
