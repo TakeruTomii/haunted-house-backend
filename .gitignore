@@ -8,3 +8,6 @@
 /.vs/haunted-house-backend/FileContentIndex
 /.vs/haunted-house-backend/v17
 /.vs/ProjectEvaluation
+.env
+/bin/Debug/net8.0
+/.vs/haunted-house-backend/config

@@ -1,0 +1,14 @@
+﻿services:
+    db:
+        image: postgres:latest
+        container_name: haunted-house-db
+        restart: always
+        ports:
+              - "5432:5432"
+        env_file:
+            - .env
+        volumes:
+            - db-data:/var/lib/postgresql/data
+            - ./initdb:/docker-entrypoint-initdb.d 
+volumes:
+  db-data:
