@@ -16,8 +16,8 @@
 
         public string ImgPath { get; set; }
 
-        public DateTime createDate { get; set; }
+        public DateTime CreateDate { get; set; }
 
-        public DateTime updateDate { get; set; }
+        public DateTime UpdateDate { get; set; }
     }
 }
